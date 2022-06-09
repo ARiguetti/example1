@@ -1,0 +1,35 @@
+
+ CREAR API REST
+https://youtu.be/bK3AJfs7qNY
+
+Visual studio docum
+https://code.visualstudio.com/api/references/vscode-api?source=post_page-----94656da18431----------------------
+
+comandos:
+
+/* crea un package json (package.json) que permite describir nuestro proyecto. Name: xxx Version: xxx  etc */
+npm init --yes 
+
+/* Crear los módulos express y morgan, que van a permitir crear el servidor */
+npm i express morgan  
+/* express es un framework de node que permite crear código del servidor de una manera sencilla */
+/* morgan es un módulo que permite ver por consola las peticiones que van llegando */
+
+
+/* dentro de la carpeta principal REST-API-NODE crear la carpeta src que va a contener el códido de toda la aplicación*/
+/src
+
+/* dentro de /src crear el archivo jason index.js */
+crear index.js
+
+/*usar el formato json para que el servidor pueda reconocer los archivos json*/
+app.use(express.json());
+/* */ 
+app.use(express.urlencoded({extended: false}));
+
+/* */
+
+npm install -g npm@8.8.0
+
+
+01/05/2022 min 31:13
